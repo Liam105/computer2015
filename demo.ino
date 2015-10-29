@@ -50,7 +50,6 @@ void loop() {
    if ( sixOrNot == true ){
      ledState = 6; 
    }
-  
    swPreState = swState;
    switch (ledState){
    case 1:
